@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0c0e12" />
+    <meta
+      name="description"
+      content="Diwakar Basak is a software engineer focused on AI/ML systems, backend infrastructure, distributed systems, and robotics."
+    />
+    <title>Diwakar Basak | Software Engineer</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@600;700;800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Diwakar Basak, home">DB<span>.</span></a>
+      <nav aria-label="Primary navigation">
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Software Engineer · AI/ML · Backend · Robotics</p>
+          <h1 id="hero-title">Diwakar Basak</h1>
+          <p class="hero-lede">
+            I build reliable software that connects intelligent models, complex data, and real-world systems.
+          </p>
+          <p class="hero-context">
+            M.S. Computer Science candidate at UC San Diego, graduating December 2026. Previously a software engineering intern at Highway9 Networks and a robotics research assistant at UIUC.
+          </p>
+          <div class="hero-actions" aria-label="Profile links">
+            <a class="button button-primary" href="mailto:dbasak@ucsd.edu">Email me</a>
+            <a class="button" href="https://www.linkedin.com/in/diwakar-basak-93a1b0244/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+            <a class="button" href="https://github.com/dbasak763" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <figure class="portrait-card">
+          <div class="portrait-frame">
+            <img src="profile.jpg" alt="Portrait of Diwakar Basak" width="800" height="1000" />
+          </div>
+          <figcaption>
+            <span class="status-dot" aria-hidden="true"></span>
+            Open to software engineering opportunities
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="impact-strip" aria-label="Selected impact">
+        <article><strong>10,000</strong><span>telemetry events per second</span></article>
+        <article><strong>87%</strong><span>faster query authoring</span></article>
+        <article><strong>4th / 45</strong><span>NanoGPT team ranking</span></article>
+        <article><strong>94.2%</strong><span>query-routing accuracy</span></article>
+      </section>
+
+      <section class="section" id="experience" aria-labelledby="experience-title">
+        <div class="section-heading">
+          <p class="section-number">01</p>
+          <h2 id="experience-title">Experience</h2>
+        </div>
+
+        <div class="experience-list">
+          <article class="experience-item">
+            <div class="experience-meta">
+              <p class="date">Jul–Sep 2025</p>
+              <p>San Francisco, CA</p>
+            </div>
+            <div>
+              <h3>Software Engineering Intern</h3>
+              <p class="organization">Highway9 Networks</p>
+              <p>
+                Built a Flutter, Flask, and GKE telemetry pipeline processing up to 10,000 events per second. Added Prometheus monitoring, Grafana dashboards, and automated alerts for sub-five-second operational visibility, then integrated an LLM-powered natural-language-to-SQL interface that reduced measured query-authoring time by 87%.
+              </p>
+            </div>
+          </article>
+
+          <article class="experience-item">
+            <div class="experience-meta">
+              <p class="date">Jun–Aug 2024</p>
+              <p>Urbana, IL</p>
+            </div>
+            <div>
+              <h3>Undergraduate Research Assistant</h3>
+              <p class="organization">Robotics Pavilion Lab · UIUC</p>
+              <p>
+                Improved a camera-based localization system for a haptic wayfinding prototype, reducing positional error by 27%. Built reusable ROS nodes and Gazebo simulation workflows that cut physical-hardware debugging time by 40%.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section projects-section" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <p class="section-number">02</p>
+          <h2 id="projects-title">Selected projects</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card project-featured">
+            <div class="project-topline"><span>AI systems</span><span>2026</span></div>
+            <h3>NanoGPT Language Model</h3>
+            <p>
+              Trained a 99M-parameter language model across multiple GPUs and 10B tokens. Controlled experiments with model architecture and optimization reached 19.78 validation perplexity, beating the 30.85 course baseline.
+            </p>
+            <ul aria-label="NanoGPT technologies">
+              <li>PyTorch</li><li>Transformers</li><li>Distributed training</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-topline"><span>Data infrastructure</span><span>2026</span></div>
+            <h3>Adaptive Query Planner</h3>
+            <p>
+              Built a Python planner that routes questions across SQL, graph, vector, full-text, XML, and direct-answer systems. Added read-only execution, source tracking, validation, and automatic fallback.
+            </p>
+            <ul aria-label="Query planner technologies">
+              <li>PostgreSQL</li><li>Neo4j</li><li>FAISS</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-topline"><span>Robotics</span><span>2026</span></div>
+            <h3>LiDAR SLAM</h3>
+            <p>
+              Combined wheel encoders, IMU data, and LiDAR scan matching to estimate robot pose and build occupancy-grid maps. Used pose-graph optimization and loop closure to reduce accumulated trajectory drift.
+            </p>
+            <ul aria-label="SLAM technologies">
+              <li>Python</li><li>GTSAM</li><li>Open3D</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-topline"><span>AI application</span><span>2026</span></div>
+            <h3>Interview Tracker</h3>
+            <p>
+              Created an interview analytics dashboard that routes natural-language requests across lookup, analysis, and visualization workflows while restricting models to approved, read-only operations.
+            </p>
+            <ul aria-label="Interview Tracker technologies">
+              <li>FastAPI</li><li>LangGraph</li><li>PostgreSQL</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section education-skills" aria-label="Education and technical skills">
+        <article>
+          <div class="section-heading compact">
+            <p class="section-number">03</p>
+            <h2>Education</h2>
+          </div>
+          <div class="education-entry">
+            <h3>University of California San Diego</h3>
+            <p>M.S. Computer Science · Expected Dec 2026</p>
+          </div>
+          <div class="education-entry">
+            <h3>University of Illinois Urbana-Champaign</h3>
+            <p>B.S. Computer Science · May 2025</p>
+          </div>
+        </article>
+
+        <article>
+          <div class="section-heading compact">
+            <p class="section-number">04</p>
+            <h2>Core toolkit</h2>
+          </div>
+          <div class="skill-groups">
+            <p><strong>Languages</strong> Python, Java, C++, SQL, JavaScript, Go, Rust</p>
+            <p><strong>AI/ML</strong> PyTorch, Transformers, Hugging Face, FAISS, RAG</p>
+            <p><strong>Systems</strong> Flask, FastAPI, PostgreSQL, Kafka, Docker, Kubernetes, GCP</p>
+            <p><strong>Robotics</strong> ROS, Gazebo, OpenCV, LiDAR, sensor fusion, GTSAM</p>
+          </div>
+        </article>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <p class="eyebrow">Let’s connect</p>
+        <h2 id="contact-title">Building dependable systems from models, data, and code.</h2>
+        <a class="contact-link" href="mailto:dbasak@ucsd.edu">dbasak@ucsd.edu <span aria-hidden="true">↗</span></a>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year">2026</span> Diwakar Basak</p>
+      <p>Software Engineer · San Diego, CA</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
