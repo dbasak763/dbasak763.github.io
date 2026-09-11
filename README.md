@@ -1,13 +1,19 @@
-# Diwakar Basak - GitHub Pages profile
+# Diwakar Basak's Portfolio
 
-A responsive, single-page software engineering portfolio designed for publishing at `dbasak763.github.io` and linking from LinkedIn.
+My personal software engineering portfolio, available at [dbasak763.github.io](https://dbasak763.github.io).
 
-The publishable site is in `dist/`. The included GitHub Actions workflow deploys that directory whenever a change is pushed to `main`.
+It highlights my experience, projects, education, and technical skills. The site is built with HTML, CSS, and JavaScript—no framework or build step required.
 
-## Publish
+## Run locally
 
-1. Create a public repository named `dbasak763.github.io`.
-2. Push this project to its `main` branch.
-3. In **Settings → Pages**, set **Source** to **GitHub Actions**.
-4. After the deployment finishes, open `https://dbasak763.github.io`.
-5. Add that URL to the **Website** field in the LinkedIn contact-info section.
+From the repository root, run:
+
+```bash
+python3 -m http.server 8000 --directory dist
+```
+
+Then visit [http://localhost:8000](http://localhost:8000).
+
+## Deployment
+
+GitHub Actions automatically publishes the `dist` directory to GitHub Pages whenever changes are pushed to `main`.
